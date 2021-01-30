@@ -1,11 +1,52 @@
 body {
   background-image: url('https://i.imgur.com/NruJO99.png');
+  font-size: 18px;
+  color: White;
 }
-body {
-    font-size: 18px;
-    color: White;
-}
+
 p {
     font-size: 18px;
     color: white;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 2em;
+    text-align: center;
+    color: white;
+}
+
+/* Style the header */
+header {
+    background-color: #777;
+    padding: 4em;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    color: orange;
+}
+
+ul:hover  {
+    color: rgb(100,100,100);
+}
+
+li:hover {
+    color: black;
+    background-color: orange;
+}
+
+li a:hover {
+    color: black;
+    background-color: orange;
+}
+
+li a {
+    display: block;
 }
