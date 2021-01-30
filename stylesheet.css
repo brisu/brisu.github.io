@@ -1,7 +1,11 @@
+/* Universal font setter for the website, some overwrites later on
+    Pairing Orbitron with Raleway fonts for a consistent look
+    https://fonts.google.com/specimen/Orbitron#pairings*/
+* {
+    font-family: Orbitron, Eurostile, Oxygen, serif;
+}
 body {
-  background-image: url('https://i.imgur.com/NruJO99.png');
-  font-size: 18px;
-  color: White;
+    background-image: url('https://i.imgur.com/NruJO99.png');
 }
 
 p {
@@ -12,24 +16,27 @@ p {
 /* Style the footer */
 footer {
     background-color: #777;
-    padding: 2em;
+    padding: 0;
     text-align: center;
     color: white;
 }
 
 /* Style the header */
-header {
+h1 {
     background-color: #777;
-    padding: 4em;
+    padding: 25px;
     text-align: center;
     color: white;
 }
 
 ul {
+    font-size: 25px;
+    font-weight: bold;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
+    margin: 15px;
+    padding: 25px;
+    width: 250px;
+    height: 25px;
     color: orange;
 }
 
@@ -49,4 +56,10 @@ li a:hover {
 
 li a {
     display: block;
+}
+
+aside {
+    padding: 300px;
+    margin: 50px;
+    text-align: left;
 }
