@@ -9,6 +9,7 @@ body {
 }
 
 p {
+    font-family: Raleway, serif;
     font-size: 18px;
     color: white;
 }
@@ -34,7 +35,10 @@ ul {
     font-weight: bold;
     list-style-type: none;
     margin: 15px;
-    padding: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 250px;
     height: 25px;
     color: orange;
@@ -59,7 +63,13 @@ li a {
 }
 
 aside {
-    padding: 300px;
-    margin: 50px;
+    padding-top: 100px;
+    padding-left: 50px;
+    margin: 0;
     text-align: left;
+}
+
+nav {
+    padding: 50px;
+    margin: 0;
 }
